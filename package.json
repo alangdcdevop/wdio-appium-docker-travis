@@ -1,0 +1,35 @@
+{
+  "name": "webdriverio-appium-on-docker-android",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadashi0713/webdriverio-appium-on-docker-android.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadashi0713/webdriverio-appium-on-docker-android/issues"
+  },
+  "homepage": "https://github.com/tadashi0713/webdriverio-appium-on-docker-android#readme",
+  "devDependencies": {
+    "@types/chai": "4.2.5",
+    "@types/mocha": "5.2.7",
+    "@wdio/appium-service": "5.16.10",
+    "@wdio/cli": "5.16.10",
+    "@wdio/local-runner": "5.16.10",
+    "@wdio/mocha-framework": "5.16.10",
+    "@wdio/spec-reporter": "5.16.5",
+    "@wdio/sync": "5.16.10",
+    "appium": "1.15.1",
+    "chai": "4.2.0",
+    "ts-node": "8.5.4",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "3.7.2",
+    "webdriverio": "5.16.10"
+  }
+}
