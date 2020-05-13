@@ -1,5 +1,6 @@
 sudo: required
-
+cache: yarn
+language: node_js
 services:
   - docker
 
@@ -20,3 +21,5 @@ script:
   # - docker-compose exec dbbackup psql -l
   # - docker-compose exec dbbackup /restore.sh
   # - docker-compose exec dbbackup psql -l gis
+  - yarn
+  - yarn test
